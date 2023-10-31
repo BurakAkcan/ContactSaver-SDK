@@ -1,0 +1,11 @@
+framework module AddPersonSDK {
+  umbrella header "AddPersonSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module AddPersonSDK.Swift {
+    header "AddPersonSDK-Swift.h"
+    requires objc
+}
